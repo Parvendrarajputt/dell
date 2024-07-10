@@ -1,0 +1,28 @@
+.App {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #1f1c2c, #928dab);
+  overflow: hidden;
+}
+
+.dice-container {
+  position: absolute;
+  bottom: 80px;
+}
+
+.dice-container:first-child {
+  left: 80px;
+}
+
+.dice-container:last-child {
+  right: 80px;
+}
+
+.board-container {
+  position: relative;
+  z-index: 1;
+}
